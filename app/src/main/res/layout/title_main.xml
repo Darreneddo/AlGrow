@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/constraintLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TitleActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="180dp"
+        android:layout_marginTop="206dp"
+        android:layout_marginEnd="180dp"
+        android:layout_marginBottom="42dp"
+        android:fontFamily="casual"
+        android:scaleX="4"
+        android:scaleY="4"
+        android:text="@string/appTitle"
+        android:textColor="#2E7D32"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toTopOf="@+id/cultureScreenButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/cultureScreenButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="158dp"
+        android:layout_marginTop="42dp"
+        android:layout_marginEnd="159dp"
+        android:layout_marginBottom="360dp"
+        android:text="@string/current_culture"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        android:hint="@string/culture_screen"/>
+
+    <Button
+        android:id="@+id/libraryButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="130dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="130dp"
+        android:layout_marginBottom="30dp"
+        android:text="@string/algae_library"
+        app:layout_constraintBottom_toTopOf="@+id/closeButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cultureScreenButton" />
+
+    <Button
+        android:id="@+id/closeButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="161dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="162dp"
+        android:layout_marginBottom="211dp"
+        android:text="@string/close"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/libraryButton" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

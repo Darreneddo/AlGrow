@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">AlGrow</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+    <string name="appTitle">AlGrow</string>
+    <string name="current_culture">Current Culture</string>
+    <string name="algae_library">Algae Library</string>
+    <string name="close">Close</string>
+    <string name="notifications">Notifications</string>
+    <string name="culture_screen">Culture Screen</string>
+    <string-array name="algae_list">
+        <item>Microalgae A</item>
+        <item>Microalgae B</item>
+        <item>Microalgae C</item>
+    </string-array>
+</resources>
